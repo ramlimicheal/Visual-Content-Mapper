@@ -140,3 +140,96 @@ export const FileText = (props: SVGProps<SVGSVGElement>) => (
         <polyline points="10 9 9 9 8 9" />
     </Icon>
 );
+
+export const Clock = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="12 6 12 12 16 14" />
+    </Icon>
+);
+
+export const Trash2 = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <polyline points="3 6 5 6 21 6" />
+        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+        <line x1="10" y1="11" x2="10" y2="17" />
+        <line x1="14" y1="11" x2="14" y2="17" />
+    </Icon>
+);
+
+export const TrendingUp = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+        <polyline points="17 6 23 6 23 12" />
+    </Icon>
+);
+
+export const TrendingDown = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <polyline points="23 18 13.5 8.5 8.5 13.5 1 6" />
+        <polyline points="17 18 23 18 23 12" />
+    </Icon>
+);
+
+export const Settings = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <circle cx="12" cy="12" r="3" />
+        <path d="M12 1v6m0 6v6m8.66-15.66l-4.24 4.24m-4.24 4.24l-4.24 4.24M23 12h-6m-6 0H1m20.66 8.66l-4.24-4.24m-4.24-4.24l-4.24-4.24" />
+    </Icon>
+);
+
+export const Save = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z" />
+        <polyline points="17 21 17 13 7 13 7 21" />
+        <polyline points="7 3 7 8 15 8" />
+    </Icon>
+);
+
+export const Filter = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" />
+    </Icon>
+);
+
+export const BarChart = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <line x1="12" y1="20" x2="12" y2="10" />
+        <line x1="18" y1="20" x2="18" y2="4" />
+        <line x1="6" y1="20" x2="6" y2="16" />
+    </Icon>
+);
+
+export const MessageSquare = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+    </Icon>
+);
+
+export const Layers = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <polygon points="12 2 2 7 12 12 22 7 12 2" />
+        <polyline points="2 17 12 22 22 17" />
+        <polyline points="2 12 12 17 22 12" />
+    </Icon>
+);
+
+export const Command = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z" />
+    </Icon>
+);
+
+export const X = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <line x1="18" y1="6" x2="6" y2="18" />
+        <line x1="6" y1="6" x2="18" y2="18" />
+    </Icon>
+);
+
+export const Send = (props: SVGProps<SVGSVGElement>) => (
+    <Icon viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <line x1="22" y1="2" x2="11" y2="13" />
+        <polygon points="22 2 15 22 11 13 2 9 22 2" />
+    </Icon>
+);
