@@ -1,0 +1,5 @@
+{
+  "name": "Visual Content Mapper",
+  "description": "An AI-powered tool to analyze website screenshots, detect content sections, and generate SEO-optimized copy with visual mapping for easy placement.",
+  "requestFramePermissions": []
+}
